@@ -7,10 +7,10 @@ class MainController < ApplicationController
 
 	def enviar
 	
-		@entrada = params[:entrada]
+		entrada = params[:entrada]
 		respond_to do |format|
-		    format.json {render json: @entrada, :status => :ok}
-		  end
+		    format.json {render json: entrada, :status => :ok}
+		 end
 	end
 
 end
