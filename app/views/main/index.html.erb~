@@ -1,0 +1,22 @@
+%h1 %center Desafio Lavid
+<form action='enviar' method='POST'>
+
+<center>
+Entrada:
+<br/>
+<input type="text" id="entrada" name="entrada" />
+<br/>
+<input name="Enviar" type="submit" />
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+Resultado:
+<br/>
+<input name="resultado" id="resultado" type="text" disabled/>
+
+</center>
+
+</form>
