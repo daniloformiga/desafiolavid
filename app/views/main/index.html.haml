@@ -1,13 +1,13 @@
 %h1 Desafio Lavid
 
-%form{:action => "enviar.json", :method => "post", :id => "main"}
+%form{:action => "enviar.json", :method => "get", :id => "form"}
 
 	Entrada:
 	%br
 	%input{:type => "text", :id => "entrada", :name => "entrada"}
 	%br
 	%br
-	%button{type: "submit"} Enviar
+	%button{type: "submit" , :id => "submeter"} Enviar
 %br	
 	Resultado:
 	%br

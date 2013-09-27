@@ -1,8 +1,7 @@
 Desafio::Application.routes.draw do
   root 'main#index'
 
-  post '/enviar', :to => 'main#enviar'
- 	
+  get '/enviar', :to => 'main#enviar'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
