@@ -2,7 +2,6 @@ Desafio::Application.routes.draw do
   root 'main#index'
 
   post '/enviar', :to => 'main#enviar'
-	redirect 'main#index'
  	
 
   # The priority is based upon order of creation: first created -> highest priority.
