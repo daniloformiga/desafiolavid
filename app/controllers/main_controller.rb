@@ -7,11 +7,16 @@ class MainController < ApplicationController
 
 	def enviar
 
-		if params[:entrada]
-			@entrada = params[:entrada]
-			@entrada.reverse!.upcase!
+		entrada = params[:entrada]
+
+		if entrada	
+
+			entrada = entrada.mb_chars.upcase.to_s
+			entrada = entrada.reverse		
+
+		
 			respond_to do |format|
-			    format.json {render json: @entrada}
+			format.json {render json: entrada}
 			end
 		end
 	end

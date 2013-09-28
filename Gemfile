@@ -34,6 +34,12 @@ end
 
 gem 'haml'
 
+group :development, :test do
+  gem 'rspec-rails', '~> 2.0'
+end
+
+gem 'activeresource'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
