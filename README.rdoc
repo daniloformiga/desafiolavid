@@ -2,8 +2,8 @@ Desafio do Lavid
 
 Tecnologias Utilizadas:
 
--> Rails 4.0.0
--> Ruby 2.0.0
--> RVM 1.22.12
--> Haml 4.0.3
--> Git
+* Rails 4.0.0
+* Ruby 2.0.0
+* RVM 1.22.12
+* Haml 4.0.3
+* Git
