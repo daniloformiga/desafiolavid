@@ -38,8 +38,6 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.0'
 end
 
-gem 'rubygems'
-
 gem 'activeresource'
 
 # Use ActiveModel has_secure_password
